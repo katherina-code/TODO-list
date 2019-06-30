@@ -1,0 +1,67 @@
+.todo {
+  display: flex;
+  justify-content: center;
+
+  &__container {
+    width: 60%;
+  }
+
+  &__header {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    padding: 1rem 0;
+
+    .icon {
+      width: 2.3rem;
+      height: 2.3rem;
+      color: $another-color;
+    }
+
+    .title {
+      margin-left: 0.6rem;
+      font-family: "Times New Roman", serif;
+      font-size: 26px;
+    }
+  }
+
+  &__form {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      align-content: center;
+
+      input {
+          width: 100%;
+          border-radius: 10px;
+          padding: 0.7rem 0.6rem;
+          font-size: 16px;
+          background-color: $input;
+          color: $font-color;
+      }
+
+      input:focus {
+        box-shadow: 0 0 5px $another-color;
+      }
+
+      button {
+          width: 2.5rem;
+          height: 2.5rem;
+          border-radius: 50%;
+          margin-left: 1rem;
+          color: $font-color;
+          background-color: $another-color;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          align-content: center;
+          box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+      }
+
+      button:hover {
+        background-color: #005e379d;
+        transition: 0.3s;
+      }
+  }
+}

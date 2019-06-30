@@ -3,3 +3,14 @@ body {
     color: $font-color;
     font-family: $primary-font;
 }
+
+button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+input {
+    border: none;
+    outline: none;
+}
